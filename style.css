@@ -1,0 +1,88 @@
+.wrapper {
+  max-width: 600px;
+  position: relative;
+  margin: 0 auto
+}
+.st1{fill:#6B7D92;
+}
+.st2{fill:#80BEE7;}
+.st3{fill:#E09E51;}
+.st4{fill:#F1CF73;}
+.st5{fill:#CD4A3C;}
+.st6{fill:#63438D;}
+.st7{fill:#67AB63;}
+.st8{fill:#B8CE65;}
+.st9{fill:#FFFFFF;}
+.st10{fill:#FFF9FA;}
+
+.wrapper polygon {
+  cursor: pointer;
+}
+
+.wrapper g {
+  position: relative;
+}
+
+.wrapper polygon:hover {
+  
+}
+
+.wrapper .img_1 {
+  position: absolute;
+  top: 53px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.wrapper .img_2 {
+  position: absolute;
+  bottom: 53px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.wrapper .img_3 {
+  position: absolute;
+  right: 53px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.wrapper .img_4 {
+  position: absolute;
+  left: 53px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.wrapper .img_5 {
+  position: absolute;
+  left: 18%;
+  top: 75%;
+  transform: translate(0, -50%);
+}
+.wrapper .img_6 {
+  position: absolute;
+  right: 18%;
+  top: 75%;
+  transform: translate(0, -50%);
+}
+.wrapper .img_7 {
+  position: absolute;
+  right: 18%;
+  top: 24%;
+  transform: translate(0, -50%);
+}
+.wrapper .img_8 {
+  position: absolute;
+  left: 18%;
+  top: 24%;
+  transform: translate(0, -50%);
+}
+.wrapper .image svg {
+  transition: 0.3s all ease-in-out;
+  width: 50px;
+}
+
+.wrapper .image svg:hover {
+  transform: scale(1.5);
+}
